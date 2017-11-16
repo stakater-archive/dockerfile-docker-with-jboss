@@ -1,7 +1,7 @@
 FROM docker:17.10
 
 # Install packages necessary to run EAP
-RUN apk -Uuv add shadow xmlstarlet augeas libarchive-tools unzip openjdk8 curl
+RUN apk -Uuv add shadow xmlstarlet augeas libarchive-tools unzip openjdk8 curl bash
 
 RUN mkdir -p /deployments
 
